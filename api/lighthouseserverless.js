@@ -42,7 +42,7 @@ module.exports = async (req, res) => {
     // Handle errors (e.g., timeout, invalid URL)
     res.status(500).json({
       error: "Failed to process the request",
-      details: error.message,
+      details: error.message
     });
   }
 };
